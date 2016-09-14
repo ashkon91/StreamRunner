@@ -1,0 +1,16 @@
+<div ng-controller="setUpController">
+		<div class="welcome">
+			<h1 style="margin-bottom: 25px">
+					Stream Runner
+			</h1>
+			<input type="text" class="form-control" id="exampleInputAmount" placeholder="Smashgg Bracket URL" ng-model="bracketId">
+			<input type="text" class="form-control" id="exampleInputAmount" placeholder="Stream Name" ng-model="bracketId">
+
+			<a ng-href="/phoneNumber/{[{bracketId}]}">
+				<button class="btn btn-primary btn-lg">
+					Set up Stream Runner
+				</button>
+			</a>
+		</div>
+	</div>
+</div>
